@@ -1,0 +1,19 @@
+Tarea 3ra Clase - Usando funciones, módulos y paquetes
+
+Proyecto: Conversor de Temperatura y Longitud
+
+Descripción: Crear un programa que permita al usuario elegir entre convertir unidades de temperatura o de longitud. Cada tipo de conversión estará en un paquete separado con módulos y funciones específicas para las distintas unidades.
+
+Estructura del Proyecto
+
+1. Paquete conversor_temperatura
+  • Contiene módulos para convertir entre Celsius, Fahrenheit y Kelvin
+
+2. Paquete conversor_longitud
+  • Contiene módulos para convertir entre metros, kilómetros, pies y millas
+
+3. Archivo Principal main_conversor.py
+  •	Solicita al usuario elegir entre "Temperatura" o "Longitud".
+  •	Dependiendo de la elección, pide una cantidad y unidad de origen, usa el paquete correspondiente para realizar las conversiones y muestra los resultados.
+
+NOTA: Recuerda importar correctamente los paquetes en el archivo principal y definir los modulos __init__.py de cada paquete.
