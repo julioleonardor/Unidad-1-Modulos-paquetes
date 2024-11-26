@@ -1,0 +1,3 @@
+from .historial_longitud import agregar_historial_longitud, ver_historial_longitud, exportar_historial_longitud
+from .historial_temperatura import agregar_historial_temperatura, ver_historial_temperatura, exportar_historial_temperatura
+from .historial_general import ver_historial_general, exportar_historial_general
